@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bazaar.in</title>
+    <!-- link to css-->
+    <link rel="stylesheet" href="style.css">
+    <!--box icon-->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- email js -->
+    <script type="text/javascript"
+        src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js">
+</script>
+<script type="text/javascript">
+   (function(){
+      emailjs.init("Ma6JyAfvCqte87DgM");
+   })();
+</script>
+</head>
+<body>
+    <!--header-->
+    <header>
+        <!--Nav-->
+        <div class="nav container">
+            <a href="index.html" class="logo"><i class='bx bxs-shopping-bags'></i> BAZAAR</a>
+                <ul id="navbar">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="women.html">Women</a></li>
+                    <li><a href="men.html">Men</a></li>
+                    <li><a href="index.html">Reviews</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            <div id="icon">
+            <!--Search-Icon-->
+            <i class='bx bx-search' id="search-icon" ></i>
+
+            <div class="search-box">
+                <input type="search" name="" id="" placeholder="Search Here...">
+            </div>
+            <!--Cart-Icon-->
+            <i class='bx bx-cart-alt' id="cart-icon" ></i>
+            <!--user-->
+            <i class='bx bx-user' id="user-icon"></i>
+            </div>
+            <div id="menu">
+                <i class='bx bx-menu'></i>
+            </div>
+            <!--cart-->
+            <div class="cart">
+                <h2 class="cart-title">Your Cart</h2>
+                <!--content-->
+                    <div class="cart-content">
+
+                    </div>
+                    <!--Total-->
+                    <div class="total">
+                        <div class="total-title">Total</div>
+                        <div class="total-price">₹0</div>
+                    </div>
+                    <!--buy button-->
+                    <button type="button" class="btn-buy">Buy Now</button>
+                    <!--close cart-->
+                    <i class='bx bx-x' id="close-cart"></i>
+            </div>
+        </div>
+    </header>
+    
+    <!--shop-->
+    <section class="shop container">
+        <h2 class="section-title2">Men's Collection</h2>
+        <!--content-->
+        <div class="shop-content">
+            <!--box 1-->
+            <div class="product-box">
+                <img src="/img/product1.webp" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">₹499</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 2-->
+            <div class="product-box">
+                <img src="/img/product2.webp" alt="" class="product-img">
+                <h2 class="product-title">WIRELESS EARBUDS</h2>
+                <span class="price">₹9999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 3-->
+            <div class="product-box">
+                <img src="/img/product3.webp" alt="" class="product-img">
+                <h2 class="product-title">HOODED PARKA</h2>
+                <span class="price">₹5999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            
+        </div>
+    </section>
+    <section class="shop container">
+        <h2 class="section-title"></h2>
+        <!--content-->
+        <div class="shop-content">
+            <!--box 1-->
+            <div class="product-box">
+                <img src="/img/product1.webp" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">₹4999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 2-->
+            <div class="product-box">
+                <img src="/img/product2.webp" alt="" class="product-img">
+                <h2 class="product-title">WIRELESS EARBUDS</h2>
+                <span class="price">₹9999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 3-->
+            <div class="product-box">
+                <img src="/img/product3.webp" alt="" class="product-img">
+                <h2 class="product-title">HOODED PARKA</h2>
+                <span class="price">₹5999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 4-->
+            <div class="product-box">
+                <img src="/img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">STRAW BOTTLE</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 5-->
+            <div class="product-box">
+                <img src="/img/product5.webp" alt="" class="product-img">
+                <h2 class="product-title">SILVER sunglasses</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 6-->
+            <div class="product-box">
+                <img src="/img/product6.webp" alt="" class="product-img">
+                <h2 class="product-title">BACK HAT</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 7-->
+            <div class="product-box">
+                <img src="/img/product7.webp" alt="" class="product-img">
+                <h2 class="product-title">BACKPACK</h2>
+                <span class="price">₹3999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 8-->
+            <div class="product-box">
+                <img src="/img/product8.webp" alt="" class="product-img">
+                <h2 class="product-title">ULTRABOOST 22</h2>
+                <span class="price">₹6999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <section class="shop container">
+        <h2 class="section-title"></h2>
+        <!--content-->
+        <div class="shop-content">
+            <!--box 1-->
+            <div class="product-box">
+                <img src="/img/product1.webp" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">₹4999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 2-->
+            <div class="product-box">
+                <img src="/img/product2.webp" alt="" class="product-img">
+                <h2 class="product-title">WIRELESS EARBUDS</h2>
+                <span class="price">₹9999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 3-->
+            <div class="product-box">
+                <img src="/img/product3.webp" alt="" class="product-img">
+                <h2 class="product-title">HOODED PARKA</h2>
+                <span class="price">₹5999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 4-->
+            <div class="product-box">
+                <img src="/img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">STRAW BOTTLE</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 5-->
+            <div class="product-box">
+                <img src="/img/product5.webp" alt="" class="product-img">
+                <h2 class="product-title">SILVER sunglasses</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 6-->
+            <div class="product-box">
+                <img src="/img/product6.webp" alt="" class="product-img">
+                <h2 class="product-title">BACK HAT</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 7-->
+            <div class="product-box">
+                <img src="/img/product7.webp" alt="" class="product-img">
+                <h2 class="product-title">BACKPACK</h2>
+                <span class="price">₹3999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 8-->
+            <div class="product-box">
+                <img src="/img/product8.webp" alt="" class="product-img">
+                <h2 class="product-title">ULTRABOOST 22</h2>
+                <span class="price">₹6999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+    <section class="shop container">
+        <h2 class="section-title"></h2>
+        <!--content-->
+        <div class="shop-content">
+            <!--box 1-->
+            <div class="product-box">
+                <img src="/img/product1.webp" alt="" class="product-img">
+                <h2 class="product-title">AEROREADY SHIRT</h2>
+                <span class="price">₹4999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 2-->
+            <div class="product-box">
+                <img src="/img/product2.webp" alt="" class="product-img">
+                <h2 class="product-title">WIRELESS EARBUDS</h2>
+                <span class="price">₹9999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 3-->
+            <div class="product-box">
+                <img src="/img/product3.webp" alt="" class="product-img">
+                <h2 class="product-title">HOODED PARKA</h2>
+                <span class="price">₹5999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 4-->
+            <div class="product-box">
+                <img src="/img/product4.jpg" alt="" class="product-img">
+                <h2 class="product-title">STRAW BOTTLE</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 5-->
+            <div class="product-box">
+                <img src="/img/product5.webp" alt="" class="product-img">
+                <h2 class="product-title">SILVER sunglasses</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 6-->
+            <div class="product-box">
+                <img src="/img/product6.webp" alt="" class="product-img">
+                <h2 class="product-title">BACK HAT</h2>
+                <span class="price">₹2999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 7-->
+            <div class="product-box">
+                <img src="/img/product7.webp" alt="" class="product-img">
+                <h2 class="product-title">BACKPACK</h2>
+                <span class="price">₹3999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+            <!--box 8-->
+            <div class="product-box">
+                <img src="/img/product8.webp" alt="" class="product-img">
+                <h2 class="product-title">ULTRABOOST 22</h2>
+                <span class="price">₹6999</span>
+                <i class='bx bx-shopping-bag add-cart'></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- newsletter -->
+    <section class="newsletter">
+        <h2>Subscribe For Special <br>Discounts</h2>
+        <!-- form -->
+        <form name="submit-to-google-sheet">
+            <input type="email" name="Email" placeholder="Enter Your Email..." required>
+            <button type="submit" class="email-btn">Subscribe</button>
+        </form>
+        <span id="msg"></span>
+        <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzRzwS1A3gtlG6FzEPmDG75sef7uqiTsFjar9r4zon28mvb1z0F7dZCltCgsF5ik24H/exec'
+            const form = document.forms['submit-to-google-sheet']
+            const msg = document.getElementById("msg")
+            
+            form.addEventListener('submit', e => {
+                e.preventDefault()
+                fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response =>{
+                    msg.innerHTML = "Thank You for Subscribing"
+                    setTimeout(function(){
+                        msg.innerHTML = ""
+                    },2000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="footer-box">
+            <a href="#" class="logo"><i class='bx bxs-shopping-bags'></i> BAZAAR</a>
+            <p>Our online store is the perfect place to shop for unique, one-of-a-kind clothing items that you won't find anywhere else.
+            </p>
+            <div class="social">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+                <a href="#"><i class='bx bxl-instagram'></i></a>
+                <a href="#"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="footer-box">
+            <h3>Support</h3>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Help</a></li>
+            <li><a href="#">Return Policy</a></li>
+            <li><a href="#">Terms of Use</a></li>
+        </div>
+        <div class="footer-box">
+            <h3>View Guides</h3>
+            <li><a href="#">Payments</a></li>
+            <li><a href="#">Blogs</a></li>
+            <li><a href="#">Our Partners</a></li>
+            <li><a href="#"Shop Now/a></li>
+        </div>
+        <div class="footer-box contact">
+            <h3>Contact</h3>
+            <span><i class='bx bxs-map'></i>250 New Delhi, India</span>
+            <span><i class='bx bxs-phone'></i>+91 999 5555 999</span>
+            <span><i class='bx bxs-envelope'></i>Bazaar@shop.in</span>
+        </div>
+    </section>
+    <!-- copyright -->
+    <div class="copyright">
+        <p>&#169; Bazaar All Right Reserved.</p>
+    </div>
+    <!-- link to js -->
+    <script src="/js/main.js"></script>
+</body>
+</html>
